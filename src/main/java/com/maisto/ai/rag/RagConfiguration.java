@@ -73,11 +73,12 @@ public class RagConfiguration {
     }
 
     /*
+
     *1: SimpleVectoreStore :
     * it's an in-memory vectore db.
     * It stores embeddings into an internal hashmap (add method)
     * If we want to avoid at every launch the creation of embeddings to store in SimpleVectoreStore, we can save informations in a file once created (save method)
     * and then reuse it at every launch by loading it (load method)
-*
-* */
+
+    */
 }
